@@ -1,0 +1,3 @@
+var txt="";x=document.getElementsByClassName("atl-item");
+
+for(i=0;i<x.length;i++){if (x[i].getAttribute("_host")=="pqh88"){txt=txt+x[i].getElementsByClassName("bbs-content")[0].textContent;}}
